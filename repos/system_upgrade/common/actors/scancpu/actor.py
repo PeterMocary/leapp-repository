@@ -14,3 +14,4 @@ class ScanCPU(Actor):
 
     def process(self, *args, **kwargs):
         scancpu.process()
+        print("hello world")
